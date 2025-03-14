@@ -38,15 +38,15 @@ export default function CountdownTimer() {
           </div>
           <div className="flex flex-col items-center">
             <span className="text-5xl sm:text-7xl font-thin">{hours}</span>
-            <p className="mt-2 text-lg tracking-wide uppercase">Hours</p>
+            <p className="mt-2 text-sm sm:text-lg tracking-wide uppercase">Hours</p>
           </div>
           <div className="flex flex-col items-center">
             <span className="text-5xl sm:text-7xl font-thin">{minutes}</span>
-            <p className="mt-2 text-lg tracking-wide uppercase">Minutes</p>
+            <p className="mt-2 text-sm sm:text-lg tracking-wide uppercase">Minutes</p>
           </div>
           <div className="flex flex-col items-center">
             <span className="text-5xl sm:text-7xl font-thin">{seconds}</span>
-            <p className="mt-2 text-lg tracking-wide uppercase">Seconds</p>
+            <p className="mt-2 text-sm sm:text-lg tracking-wide uppercase">Seconds</p>
           </div>
         </div>
         {timeLeft === 0 && (
