@@ -9,7 +9,7 @@ export default function VenueSection() {
       <div className="venue-container w-full flex flex-col sm:flex-row sm:space-x-8 gap-8 sm:gap-20 mb-12">
 
         <div className="venue-card w-full sm:w-1/2 bg-white p-8 rounded-lg shadow-lg bg-gradient-to-r from-pink-50 via-pink-100 to-pink-200 relative overflow-hidden">
-          <div className="absolute inset-0 bg-opacity-25 bg-cover bg-center" style={{ backgroundImage: 'url("/public/wedding-cartoon.jpg")' }}></div>
+          <div className="absolute inset-0 bg-opacity-25 bg-cover bg-center" style={{ backgroundImage: 'url("/wedding-cartoon.jpg")' }}></div>
           <div className="relative z-10">
             <h3 className="text-3xl font-semibold text-center mb-6 text-white drop-shadow-md">Wedding Venue</h3>
 
@@ -35,7 +35,7 @@ export default function VenueSection() {
         </div>
 
         <div className="venue-card w-full sm:w-1/2 bg-white p-8 rounded-lg shadow-lg bg-gradient-to-r from-pink-50 via-pink-100 to-pink-200 relative overflow-hidden">
-          <div className="absolute inset-0 bg-opacity-25 bg-cover bg-center" style={{ backgroundImage: 'url("/public/reception-cartoon.jpg")' }}></div>
+          <div className="absolute inset-0 bg-opacity-25 bg-cover bg-center" style={{ backgroundImage: 'url("/reception-cartoon.jpg")' }}></div>
           <div className="relative z-10">
             <h3 className="text-3xl font-semibold text-center mb-6 text-white drop-shadow-md ">Reception Venue</h3>
             <div className="flex items-center text-lg text-white mb-4">

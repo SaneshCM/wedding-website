@@ -26,7 +26,7 @@ export default function CountdownTimer() {
   const { days, hours, minutes, seconds } = formatTime(timeLeft);
 
   return (
-    <div className="relative w-full flex flex-col items-center justify-center py-28 text-white bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: "url('/public/background.JPG')" }}>
+    <div className="relative w-full flex flex-col items-center justify-center py-28 text-white bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: "url('/background.jpg')" }}>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       
       <div className="relative flex flex-col items-center">

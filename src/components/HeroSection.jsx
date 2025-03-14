@@ -34,9 +34,9 @@ export default function HeroSection() {
       </div>
 
       <div className="relative flex flex-wrap justify-center gap-4 sm:gap-6 mt-4 sm:mt-2 z-20">
-        <img src="/bride-groom-left.JPG" alt="Bride and Groom Left" className="w-40 h-52 sm:w-64 sm:h-80 object-cover shadow-lg" />
-        <img src="/bride-groom-center.JPG" alt="Bride and Groom Center" className="w-52 h-64 sm:w-96 sm:h-96 object-cover shadow-lg" />
-        <img src="/bride-groom-right.JPG" alt="Bride and Groom Right" className="w-40 h-52 sm:w-64 sm:h-80 object-cover shadow-lg" />
+        <img src="/bride-groom-left-low.jpg" alt="Bride and Groom Left" className="w-40 h-52 sm:w-64 sm:h-80 object-cover shadow-lg" />
+        <img src="/bride-groom-center-low.jpg" alt="Bride and Groom Center" className="w-40 h-52 sm:w-96 sm:h-96 object-cover shadow-lg" />
+        <img src="/bride-groom-right-low.jpg" alt="Bride and Groom Right" className="w-40 h-52 sm:w-64 sm:h-80 object-cover shadow-lg" />
       </div>
       
       <p className="text-sm sm:text-lg font-light text-center max-w-lg sm:max-w-2xl mt-6 sm:mt-8 z-20">
