@@ -45,7 +45,7 @@ export default function VenueSection() {
 
             <div className="flex items-center text-lg text-white mb-6">
               <FaMapMarkerAlt className="mr-2 text-white-600" />
-              <p className="font-medium">Bride's Home, Thaliparamba</p>
+              <p className="font-medium">Groom's Home, Thaliparamba</p>
             </div>
 
             <a
