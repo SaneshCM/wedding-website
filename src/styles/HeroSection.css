@@ -1,0 +1,163 @@
+/* Hero Section Container */
+.hero-container {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 0 16px;
+  }
+  
+  /* Transparent Black Overlay */
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  
+  /* Header and Navigation */
+  .header {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    z-index: 30;
+  }
+  
+  /* Mobile Menu Icon */
+  .menu-icon {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: black;
+  }
+  
+  /* Navigation Menu */
+  .nav-menu {
+    display: flex;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 16px 0;
+    justify-content: center;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-menu.open {
+    transform: translateY(0);
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+  }
+  
+  /* Title Section */
+  .title-container {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 8px;
+  }
+  
+  .title-container h1 {
+    font-size: 56px;
+    font-family: serif;
+    font-weight: bold;
+  }
+  
+  .title-container p {
+    font-size: 36px;
+    font-weight: 300;
+  }
+  
+  /* Image Grid */
+  .image-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 100px;
+  }
+  
+  .image-grid img {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Wedding Message */
+  .wedding-message {
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 40px;
+    color: #333;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .title-container {
+      top: 25%;
+      padding: 10px 30px;
+    }
+  
+    .title-container h1 {
+      font-size: 40px;
+    }
+  
+    .title-container p {
+      font-size: 28px;
+    }
+  
+    .image-grid {
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 80px;
+    }
+  
+    .image-grid img {
+      width: 180px;
+      height: 230px;
+    }
+  
+    .wedding-message {
+      font-size: 16px;
+      max-width: 400px;
+    }
+  }
+  
